@@ -1,0 +1,111 @@
+body{
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: rgb(48, 48, 53);
+    border-bottom: 2px solid rgb(156, 20, 104);
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    padding: 0 2rem;
+    box-sizing: border-box;
+
+}
+.header__h2{
+    background-color: rgb(48, 48, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__navbar{
+    background-color: rgb(48, 48, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__navbar a{
+    padding-right: 10%;
+}
+.header__h2 span, .header__navbar a:first-child{
+    color: rgb(156, 20, 104);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.section__first{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 20rem;
+    background-image: url("img/showcase.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+.section__first h1{
+    padding-bottom: 1rem;   
+}
+.section__second{
+    display: flex;
+    justify-content: space-between;
+    padding:0 1rem ;
+    background-color:rgb(48, 48, 53);
+    height: 4rem;
+}
+.section__second-h3, .section__second-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section__second-input input{
+    padding: .5rem;
+    background-color: white;
+    color: black;
+    border: none;
+}
+.section__second-input input[type="button"]{
+    background-color: rgb(218, 64, 3);
+    color: white;
+    border: none;
+}
+.section__logos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding-top: 1rem;
+    color: black;
+}
+.section__logos img{
+    width: 100px;
+}
+.section__logos div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: black;
+    background-color: rgb(48, 48, 53);
+    padding:1rem 0;
+    color: white;
+}
+.footer img{
+    width: 10rem;
+    margin-top: -.75rem;
+}
